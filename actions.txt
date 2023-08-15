@@ -1,0 +1,30 @@
+current task : 
+ajuster le layout
+
+analyser seo, reduir la taille des images
+message des cookies
+
+
+laisser le contenu s'ajoute manauellement
+les categorie sont statique
+les menu sont statique
+
+ 
+
+- tester => 
+- creer un nouveau projet en local et lui importer le travail fait
+- remplir trois article
+- exporter et importer en local
+- deploy
+
+
+problems trouve
+le site ne fonctionne pas correctement dans chrom, il redirect lorsque on demande certain page
+le logo en bas n'est pas ajuste
+
+ //$log_message = print_r($items, true); // Utilisez true pour capturer la sortie dans une variable
+  // Enregistrez le message dans le fichier de journalisation en utilisant error_log
+  //error_log($log_message);
+  //LOG_DEBUG($items); 
+ // error_log($log_message);
+ 

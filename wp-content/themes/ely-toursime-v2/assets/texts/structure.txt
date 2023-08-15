@@ -1,0 +1,11 @@
+/
+├── assets
+│   ├── css
+│   └── js
+├── functions.php
+├── index.php
+--- page.php
+├── layout
+│   ├── single.php
+│   └── archive.php
+└── style.css

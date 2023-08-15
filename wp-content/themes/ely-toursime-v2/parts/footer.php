@@ -1,0 +1,1 @@
+<footer><p>© 2023 Sidi Tours Mauritania</p></footer>
