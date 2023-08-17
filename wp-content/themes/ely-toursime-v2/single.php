@@ -1,4 +1,5 @@
 <?php
+// the post or article content will be display there
 require('header.php')
   ?>
 
@@ -8,8 +9,7 @@ require('header.php')
   <?php include('parts/menu.php') ?>
   <!-- contenue -->
   <?php
- include('parts/thumbnail.php') 
-  
+  include('parts/thumbnail.php') 
   ?>
     <div class="main">
       <div class="the_content">
