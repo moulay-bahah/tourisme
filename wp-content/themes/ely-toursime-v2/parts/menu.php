@@ -13,9 +13,6 @@ require_once('menu-utiles.php');
     <div class="iteme">
         <ul>
             <li class="logo">
-            
-                
-             
                 <?php
                 //$res = get_the_permalink().'book/';
                // $log_message = print_r($res, true); // Utilisez true pour capturer la sortie dans une variable
@@ -23,13 +20,15 @@ require_once('menu-utiles.php');
                // error_log($log_message);
                 //LOG_DEBUG($items); 
                // error_log($log_message);
-
                 ?>
-                <a href="<?php echo get_the_permalink(); ?>">
-                    <img src="<?php echo get_template_directory_uri() . '/assets/images/logo.jpg' ?>" alt="logo" />
+                <a href="<?php echo get_home_url() ?>">
+                    <img 
+                    src="<?php echo get_template_directory_uri() . '/assets/images/logo.jpg' ?>" 
+                    alt="logo" 
+                    />
                 </a>
             </li>
-            <li><a href="<?php echo get_the_permalink().'book/'; ?>">Book Now</a></li>
+            <li><a href="<?php echo  get_home_url().'/book/'; ?>">Book Now</a></li>
 
 
 

@@ -60,6 +60,16 @@ nav > .iteme > ul > li > a {
   align-items: center;
   transition: background-color var(--trans--time), color var(--trans--time);
 }
+nav > .iteme > ul > li > span {
+  text-decoration: none;
+  color: var(--color--black);
+  padding: 0 24px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  transition: background-color var(--trans--time), color var(--trans--time);
+  cursor: pointer;
+}
 nav > .iteme > ul > li:hover {
   background-color: var(--color--luminous-vivid-amber);
   color: var(--color--danger);
@@ -500,6 +510,11 @@ footer p {
     flex-direction: column;
   }
   nav > .iteme > ul > li > a {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+  }
+  nav > .iteme > ul > li > span {
     display: flex;
     justify-content: space-between;
     padding: 15px 20px;

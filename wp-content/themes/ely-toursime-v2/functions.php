@@ -4,7 +4,7 @@ function boilerplate_load_assets()
 {
 
   wp_enqueue_style('ely-nomrmalize-css', get_theme_file_uri('/assets/styles/normalize.css'), array(), '1.5' );
-  wp_enqueue_style('ely-style-css', get_theme_file_uri('/assets/styles/style.css'), array(), '1.6', );
+  wp_enqueue_style('ely-style-css', get_theme_file_uri('/assets/styles/style.css'), array(), '1.5', );
 
   // css lib
   wp_enqueue_style('ely-all-min-css', get_theme_file_uri('/assets/styles/all.min.css'), array(), '1.5');

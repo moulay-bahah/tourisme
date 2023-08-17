@@ -57,10 +57,10 @@ function g($items)
   foreach ($items as $item) {
     if ($item['has-child'] == 1) {
       $link_principale = '<li>';
-      $link_principale = $link_principale . '<a href="' . $item['link'] . '">';
+      $link_principale = $link_principale . '<span>';
       $link_principale = $link_principale . $item['title'];
       $link_principale = $link_principale . '<i class="fa-solid fa-chevron-right"></i>';
-      $link_principale = $link_principale . '</a>';
+      $link_principale = $link_principale . '</span>';
       $link_principale = $link_principale . '<ul class="dropdwon">';
       echo $link_principale;
       foreach ($item['childrens'] as $child) {
