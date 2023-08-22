@@ -1,7 +1,9 @@
-source: https://github.com/elycheikhsmail/tourisme/archive/refs/heads/main.zip#tourisme-main
+source: https://github.com/moulay-bahah/tourisme/archive/refs/tags/v0.0.1.zip#tourisme-0.0.1
 features:
   - mysql
   - php latest 
+  - ssl 
+  - ssl always
   - firewall
 nginx:
   root: public_html
